@@ -1,4 +1,4 @@
-package org.sid.inventoryservice.entities;
+package org.sid.productservice.entities;
 
 
 import jakarta.persistence.Entity;

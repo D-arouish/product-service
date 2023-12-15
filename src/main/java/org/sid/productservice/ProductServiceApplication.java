@@ -1,21 +1,20 @@
-package org.sid.inventoryservice;
+package org.sid.productservice;
 
-import org.sid.inventoryservice.entities.Product;
-import org.sid.inventoryservice.repositories.ProductRepository;
+import org.sid.productservice.entities.Product;
+import org.sid.productservice.repositories.ProductRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
-import org.springframework.data.rest.webmvc.RepositoryRestController;
 
 import java.util.List;
 
 @SpringBootApplication
-public class InventoryServiceApplication {
+public class ProductServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(InventoryServiceApplication.class, args);
+        SpringApplication.run(ProductServiceApplication.class, args);
     }
 
 
